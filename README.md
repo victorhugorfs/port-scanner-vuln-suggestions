@@ -23,6 +23,22 @@ illegal depending on your jurisdiction.
 
 - Python 3.8+ (standard library only, no external dependencies)
 
+## Installation
+
+1. Clone this repository (or download it as a ZIP from the green "Code" button on GitHub):
+```bash
+   git clone https://github.com/victorhugorfs/port-scanner-vuln-suggestions.git
+```
+
+2. Make sure both `scanner.py` and `vuln_db.py` are in the same folder — the scanner imports directly from `vuln_db.py`, so it won't run if they're separated.
+
+3. Make sure you have Python 3.8+ installed (no external dependencies needed — standard library only).
+
+4. Run it from inside that folder:
+```bash
+   python scanner.py <target> -p <port-range>
+```
+
 ## Usage
 
 ```bash
